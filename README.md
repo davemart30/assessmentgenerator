@@ -1,5 +1,5 @@
 # assessmentgenerator
-Generates random assignments and answers
+Generates random assignments and answers for a range of students. Some questions are static and others random.  Various combinations of variables are used to create what should be a unique assignment for each student.
 
 assessmentgeneratorv2.py --
  - generates a folder called output
@@ -10,3 +10,16 @@ assessmentgeneratorv2.py --
 I then use a batch file I found to make a html file that lists all of the assignment files.  Then use an old internet explorer trick to print all files to the printer for manual handout.
 
 See the Issues section of this github to see what needs doing.
+
+answergenerator.py --
+ - generates a unique answersheet for each student based on answers
+ 
+
+Documents:
+- Model Answers ready for answergenerator
+  - Model Answers Task 1.xlsx
+  - Model Answers Task 2.xlsx
+  - Task 3 (version 2).xlsb.xlsx
+  
+SSUD71-308 Assignment Review for 183.docx
+ - Shows questions and layout of original printed assignment
