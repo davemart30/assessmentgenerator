@@ -26,7 +26,7 @@ I then use a batch file I found to make a html file that lists all of the assign
 **SSUD71-308 Assignment Review for 183**.docx
  - Shows questions and layout of original printed assignment
 
-##Setup and running
+## Setup and running
 Download and extract files to working folder
 create an directory called _output_ and move css file into it
 Use cmd to run command line
