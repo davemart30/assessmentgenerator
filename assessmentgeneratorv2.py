@@ -57,7 +57,9 @@ def main():
     global q9list
     global assignID
     #setup list
+    print("starting creation...")
     setupLists()
+    print ("created")
     #import studentinfo
     
     with open('studinfo.csv') as csvfile:
@@ -67,7 +69,8 @@ def main():
         for row in readCSV:
             studentIDs.append(row[0])
             studentNames.append(row[2]+" "+row[1])
-    
+
+    print ("number of students completed = " + str(len(studentIDs)))
     #Open IDIndexfile
     indexFile = open("output/AssignmentIDIndex.csv","w")
     indexWriter = csv.writer(indexFile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -79,6 +82,7 @@ def main():
         nameIndex += 1
         file.write("<!DOCTYPE html><html><head><style>body {font-family: 'Arial', Arial}table.boq {border-collapse: collapse;border: solid 3px black; }table.boq td {border:solid 1px black}</style></head><body><div id='header' style='border-style: solid; border-width: 2px'><header><h1 style='margin-left: 5px'>SSUD71-308-191:</h1><h1 style='margin-left: 5px'>Project Contract Administration</h1><h2 style='margin-left: 5px'>Assignment Part B</h2><h3 style='margin-left: 5px'>Student:   "+currentStudent +" ("+studentNames[studentIDs.index(currentStudent)] +")</h3> "+"<div id='examid' style='color:gray'></div></header></div><div id='instructions' style='border-style: solid; border-width: 1px'><h3 style='margin-left: 5px'>DUE DATE: 4pm Wednesday 20/03/2019</h3><h3 style='margin-left: 5px'>Submission Requirements</h3><ol type='a'><p style='margin-left: 5px'><li>Assignment  submissions must be uploaded via iLearn - <strong>no</strong> hard copy is required</li><li><strong>UPLOAD</strong> as a 'Word' document (.doc format) and in PDF (.pdf format) via the 'Assessment' tab in iLearn;</li><li>It is the student&#39;s responsibility to submit each part of the assignment as detailed above - no exceptions will be made, other than in strict accordance with university policy</ol><p style='color: red; margin-left: 5px'><strong>Late submissions will be penalized by 10% for every day that the submission is late.</strong></p><h3 style='margin-left: 5px'>Scope</h3><p style='margin-left: 5px'>Respond to all nine tasks</p><h3 style='margin-left: 5px'>Value</h3><p style='margin-left: 5px'>Part A: 10% of the assignment.</p><p style='margin-left: 5px'><strong>Part B: 90% of the assignment total.</strong></p><h3 style='margin-left: 5px'>Approach</h3><ul style='margin-left: 5px'><li>Take time to read all parts of this assignment document thoroughly before you start and carefully to ensure you <strong>understand the requirements of each task fully.</strong></li><li>You are encouraged to refer to external sources, however your responses must represent <strong>your interpretation</strong> and be written <strong>in your own words.</strong></li><li>Respond to each task strictly in accordance with the task requirements and keep your responses precise.</li><li>Quote <strong><em>all</em> contract references</strong> wherever directly relevant to any part of the task.</li><li>Provide full APA Standard in-text citations and reference list for Tasks 8 and 9 only (<strong>not required</strong> for other tasks).</li></ul><br><h3 style='margin-left: 5px'>Assessment</h3><p style='margin-left: 5px'>Grading will be in accordance with the Assessment Rubric in iLearn. Review the rubric carefully to understand the way in which the assignment will be assessed.</p><p style='margin-left: 5px; color:red'><em><strong>(Note that comprehensive responses to each task are required for full marks).</strong></em></p></div><p align='center' style='color:red'><strong>Your responses to all tasks are to be based on the lump sum building contract described in the assignment &quot;Scenario&quot;.</strong></p><hr><!--SCENARIO PART A--><h2>Scenario - Part A</h2><p>Assume that you are employed by a builder as his Contract Administrator for a commercial building project. You have just been given a copy of the executed lump sum contract for construction of the project.</p><p>The contract is comprised of the following component documents:</p><ol><li>Formal instrument</li><li>AS4000-1997 - General conditions of contract</li><li>AS4000-1997 - Annexure Part A</li><li>AS4000-1997 - Annexure Part B</li><li>Scope of works</li><li>Tender program</li><li>Bill of quantities</li><li>Technical specifications</li><li>Tender drawings</li></ol><p style='margin-left: 5px; color:red'><em><strong>Instructions: </strong>Respond to <strong>Tasks 1 and 2</strong> based on Scenario - Part A above.</em></p><hr><!--QUESTION 1--><h3 style='color:red'>Task 1 (11.25 marks)</h3><div id='q1'><p>Three component documents have been selected from the nine listed above:</p><div id='q1list'>")
         
+
         #Add 3 x q1 elements
         qlist=ql.q1list
         
