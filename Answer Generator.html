@@ -1,0 +1,200 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Assessment Marking Generator</title>
+  <meta name="Assessment Marking Generator" content="Enter AssignmentID and an answer key will be generated.">
+
+  
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <h1 style="margin-left: 5px">SSUD71-308-182: Project Contract Administration</h1>
+  <h2 style="margin-left: 5px">Assignment Parts 2 &amp; 3 Answer Generator</h2>
+  <hr />
+  <form id="idform">
+    <h3>Instructions for using the answer generator. Model answers will be blank until you:</h3>
+    <ol>
+      <li>Log into the iLearn subject site</li>
+      <li>Go the Grade Centre... Needs Marking navigation item</li>
+      <li>Find the first assignment parts 2 and 3 submission</li>
+      <li>Click the drop down button next to the assignment and select Mark All Users</li>
+      <li>Select and copy the  long string of characters to the right of ID: </li>
+      <li>Paste it into the input box below</li>
+      <li>Click on Submit</li>
+      </ol>    
+    <fieldset>
+      Enter Assignment ID: <input type="text" name="assignmentid" size="65"><br>
+      <input type="submit" onclick="generateAnswers(); return false;" value="Submit" />
+   </fieldset>
+  </form>
+  
+  <h3>All parts of this assignment are based on one lump sum building contract as described in the Scenario.</h3>
+    <!--SCENARIO 1-->
+    <h2>Scenario (Part 1)</h2>
+   
+    <p>You have been given a copy of the lump sum contract which is comprised of the following component documents:</p>
+    <ol>
+        <li>Formal instrument
+        <li>AS4000-1997 - General conditions of contract</li>
+        <li>AS4000-1997 - Annexure Part A</li>
+        <li>AS4000-1997 - Annexure Part B</li>
+        <li>Scope of Works</li>
+        <li>Tender Program</li>
+        <li>Bill of quantities</li>
+        <li>Technical specifications</li>
+        <li>Construction drawings</li>            
+    </ol>
+
+   
+    <table style="width: :100%">
+      <tr>
+          <td style="width: 50%">
+            <h3 style="color:red">Task 1 (15 marks)</h3>
+            <div id="q1">
+                <p>For each of the three component documents listed below, describe in your own words its:
+                <ol type="a" style="margin-left: -20px">
+                    <li>appearance and contents, and </li>
+                    <li>purpose and role.</li>
+                </ol>
+                <div id="q1list">            
+                </div>        
+                <p><em><strong>Note:</strong> Include clause references from AS4000 where applicable.</em></p>
+                <p><em>(100-200 words for each item)</em></p>
+                <hr>
+            </div>
+        </td>
+        <td>
+            <div id="a1list"><h3 style="color:red">Model answers</h3></div>
+        </td>
+      </tr>
+    </table>
+    
+    
+
+    <!--QUESTION 2-->
+    <table style="width: 100%">
+      <tr>
+        <td style="width: 50%">
+          <h3 style="color:red">Task 2 (7.5 marks)</h3>
+          <div id="q2">
+              <p>Nominate one component document from the list in Task 1 in which the information for the following <strong><em>will be included</em></strong>. Nominate one document only for each of the following - no further explanation is required.</p>        
+              <div id="q2list">            
+              </div>        
+              <p><em><strong>Note:</strong>List clause references for any item that will be found in AS4000-1997.</em></p>
+              <hr>
+          </div>
+        </td>
+        <td>
+            <div id="a2list"><h3 style="color:red">Model answers</h3></div>
+        </td>
+      </tr>
+    </table>
+
+    <!-- SCENARIO PART 2-->
+    <!--SCENARIO 1-->
+    <h2>Scenario (Part 2)</h2>
+    <p>Download copies of the following component documents from the contract:</p>
+    <div id="s2a"></div>
+    <ul><li><a href="https://ilearn.bond.edu.au/bbcswebdav/xid-6607886_1" target="blank">Bill of Quantites</a></li></ul>
+    <div id="s2c">
+        <strong>ADDITIONAL DETAILS</strong>
+    </div>
+    
+    
+    <!-- TASK 3-->
+    <h3 style="color:red">Task 3 (10 marks)</h3>
+    <div id="q3">
+        <ol type="a">
+            <li>By what date should the Principal given the Contractor possession of site?</li>
+            <li>How many days late was the date of practical completion?</li>
+            <li>How much is the contract sum?</li>
+            <li>How long does the Principal have to rectify inadequate Contractor &#39;s possession of the site?</li>
+            <li>How long is the defects liability period?</li>
+            <li>What is the value of the security that should have been provided by the Contractor initially?</li>
+            <li>In what form should the Contractor initially have provided security?</li>
+            <li>Who is responsible for nominating the arbitrator to resolve the ongoing dispute?</li>
+            <li>The units of measure used in the bill of quantities are in the legal units of what jurisdiction?</li>                
+			<li>Who is responsible for protecting surplus &#39Principal supplied&#39 materials that the Principal does not want returned to the supplier after the practical completion?</li>
+        </ol>    
+    </div>
+    <hr>
+
+    <!-- TASK 4-->
+    <h3 style="color:red">Task 4 (15 marks)</h3>
+    <div id="q4">
+        <ol>
+            <div id="q4a"></div>
+            <li>What is the total amount of security that the Principal is entitled to be holding now (one week after practical completion was achieved). Explain your logic.</li>
+            <li>The Superintendent has certified that WUC is complete and the parties have agreed the actual quantities of work carried out under each B/Q Item. What amount should be added to or deducted from the contract sum if the final &#39actual&#39 quantities are:</li>
+           </ol>
+        <div id="q4b"></div>
+        <p><em><strong>Note:</strong> List all relevant references from AS4000-1997 and show your workings for 2 and 3.</em></p>
+    </div>
+    <hr>
+
+    <!-- TASK 5-->
+    <h3 style="color:red">Task 5 (10 marks)</h3>
+    <div id="task5">
+        <p>Calculate the adjustment required to the contract sum if:</p>
+        <div id="q5"></div>
+        
+        <p><em><strong>Note:</strong> Show your workings and relevant references from AS4000-1997</em></p>
+    </div>
+    <hr>
+
+    <!-- TASK 6-->
+    <h3 style="color:red">Task 6 (10 marks)</h3>
+    <div id="task6">
+		<p>Make the following assumptions regarding the assignment scenario:</p>
+        <div id="q6"></div>
+    </div>
+
+    <hr>
+
+    <!-- TASK 7-->
+    <h3 style="color:red">Task 7 (12.5 marks)</h3>
+    <div id="task7">
+        <p>Specify where in AS4000-1997 the following can be found:</p>
+        <div id="q7"></div>
+    </div>
+    <hr>
+
+    
+    <!-- TASK 8-->
+    <h3 style="color:red">Task 8 (10 marks)</h3>
+    <div id="task8">
+        <p><strong><em>In your own words</em></strong> describe the purpose of each of the following:</p>
+        <div id="q8"></div>
+        <p><em><strong>Note:</strong> Use APA Style referencing (including In-text citations and Reference list).</em></p>
+		<p><em>(100-200 words for each item)</em></p>
+
+    </div>
+    <hr>
+
+    <!-- TASK 9-->
+    <h3 style="color:red">Task 9 (10 marks)</h3>
+    <div id="task9">
+        
+        <div id="q9"></div>
+		<ol type="i">
+			<li>what it means <strong>in the context of AS4000-1997,</strong></li>
+			<li>how and/or when it is used <strong>in administering AS4000-1997,</strong> and
+			<li>differences between its application in AS4000-1997 and in AS2124-1992.</li>
+		</ol>
+
+		 <p><em><strong>Note:</strong> Use APA Style referencing (including In-text citations and Reference list).</em></p>
+		<p><em>(200-300 words)</em></p>
+    </div>
+    <hr>
+    <div id="AnswerDiv"></div>
+ 
+  <script src="answergenerator.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arial', Arial
+}
+
+table.boq {
+    border-collapse: collapse;
+    border: solid 3px black; 
+}
+
+table.boq td {
+    border:solid 1px black
+}
