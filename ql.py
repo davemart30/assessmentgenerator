@@ -112,14 +112,14 @@ def setupLists():
         #1
         'G2.<ol type="i" style="margin-left: 70px"> \
             <li>the Contractor receives an invoice to the value of $94,501.00 for carrying out all the work associated with Bill of Quantities Item B/Q29. </li> \
-            <li>all the work associated with Item B/Q12 of the Bill of Quantities is <strong><em>deleted</em></strong> from the Contract.</li> \
+            <li>all the work associated with Item B/Q12 of the Bill of Quantities is <strong><em>&nbsp;&nbsp;deleted</em></strong> from the Contract.</li> \
             <li>the <em><strong>total cost</strong></em> of the work carried out directly by the Contractor to complete all the work associated with Bill of Quantities Item B/Q28 was $99,210.00</li> \
              <li>the <em><strong>Contractor&#39;s costs</strong></em> to carry out part of the work associated with Bill of Quantities Item B/Q30 using his direct resources totalled $361,450.00 and he received an invoice from a subcontractor to complete the balance of the work for $531,000.00</li> \
         </ol>',
         #2
         'M8.<ol type="i" style="margin-left: 70px"> \
             <li>the Contractor receives an invoice to the value of $94,510.00 for carrying out all the work associated with Bill of Quantities Item B/Q28. </li> \
-            <li>all the work associated with Item B/Q21 of the Bill of Quantities is <strong><em>deleted</em></strong> from the Contract.</li> \
+            <li>all the work associated with Item B/Q21 of the Bill of Quantities is <strong><em>&nbsp;&nbsp;deleted</em></strong> from the Contract.</li> \
             <li>the <em><strong>total cost</strong></em> of the work carried out directly by the Contractor to complete all the work associated with Bill of Quantities Item B/Q29 was $99,120.00</li> \
             <li>the <em><strong>Contractor&#39;s costs of using his direct resources</strong></em> to carry out part of the work associated with Bill of Quantities Item B/Q30 is $361,450.00 and he receives and invoice for $531,000.00 from the subcontractor who completes the balance of the work.</li> \
         </ol>'
